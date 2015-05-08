@@ -1,4 +1,4 @@
 class Comment < ActiveRecord::Base
-  belongs_to_one :pin
-  belongs_to_one :user
+  belongs_to :pin
+  belongs_to :user
 end
